@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantam</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <script src="assets/js/jquery.min.js"></script>
+
+</head>
+<body>
+    <div class="main-wrapper">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white p-lg-2 p-md-3 pt-lg-2 ps-2 wow fadeIn">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo/logo.png" alt="Logo" height="80">
+                </a>
+                <button class="btn d-lg-none d-md-block d-block" id="side-toggler">
+                    <svg class="ct-icon" width="18" height="14" viewBox="0 0 18 14" aria-hidden="true" data-type="type-2">
+
+                        <rect y="0.00" width="18" height="1.7" rx="1"></rect>
+                        <rect y="6.15" width="18" height="1.7" rx="1"></rect>
+                        <rect y="12.3" width="18" height="1.7" rx="1"></rect>
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
+                    <ul class="navbar-nav mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Mri</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">AltraSound</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">X-ray</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Health Screening <i class="fas fa-angle-down"></i></a>
+                            <ul class="navbar-nav position-absolute flex-column">
+                                <li class="nav-item"><a href="#" class="nav-link">Snow White</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Rabin Hood</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Sweet Memories</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Friend or FDE</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Back to Basic</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Hearty Heart</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Healthy Liver</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Fight Cancer</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Qurb The Pain</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Stock Stroke</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Portrait</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">BasPoke</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Impressions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Partners</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">For Clinicians</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">No Refund Policy</a>
+                        </li>
+                    </ul>
+                    <div class="pt-0 bg-white">
+                        <a href="#" class="btn btn-warning bold-7 text-cap white bg-color book-now bg-hover-color text-light p-2 pe-3 ps-4 ms-auto d-lg-block d-md-none d-none">Book Now</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="sidebar">
+                <div class="d-flex justify-content-end"><button class="btn text-light" id="sidebar-dismiss"><i class="fas fa-times"></i></button></div>
+                <div class="menu pb-5">
+                    <ul class="navbar-nav mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Mri</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">AltraSound</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">X-ray</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Health Screening</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Impressions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Partners</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">For Clinicians</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">No Refund Policy</a>
+                        </li>
+                        <a href="#" class="btn btn-warning bold-7 text-cap white bg-color book-now bg-hover-color text-light p-lg-2 pe-lg-3 ps-lg-4 ms-lg-auto me-auto d-lg-none d-block">Book Now</a>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <!-- navbar end -->
+
+
+        <section class="banner">
+            <div class="col-lg-6 col-12 ps-lg-5 banner-inner">
+                <h5 class="sub-title">EXPERIENCE. DEDICATION. COMPASSION​</h5>
+                <h1 class="title bold-7 text-light">The greatest gift you can give your family and the world is a healthy you.</h1>
+            </div>
+        </section>
+        <section class="down-banner">
+            <div class="col-11 m-auto">
+                <div class="box-wrapper">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="box p-lg-4 p-3">
+                                <h1 class="text-center icon"><i class="fas fa-user-md"></i></h1>
+                                <h4 class="title text-center p-2">Patient Care</h4>
+                                <p class="text-center">
+                                    Patient comfort and assurance is very important to us. Beyond our expertise, we care for each individual with a personal touch.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="box p-lg-4 p-3">
+                                <h1 class="text-center icon"><i class="fas fa-award"></i></h1>
+                                <h4 class="title text-center p-2">Leading Technology</h4>
+                                <p class="text-center">
+                                    Equipped with state-of-the-art technology, we strive to provide you with the standard of care and aim to exceed your expectations in diagnostic imaging.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="box p-lg-4 p-3">
+                                <h1 class="text-center icon"><i class="fas fa-tv"></i></h1>
+                                <h4 class="title text-center p-2">Speed With Accuracy</h4>
+                                <p class="text-center">
+                                    This is made possible only through the seamless blend of human expertise and technology. ​
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="imaging mt-lg-5 mt-3">
+            <div class="col-11 m-auto">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 mri-sec">
+                        <h1 class="sec-title">Quantum Medical Imaging</h1>
+                        <p class="text-justify">
+                            We know how critical our role is to your health and peace of mind. That’s why our specialised team work closely with you and your referring doctor to personalise scan protocols to exclude or confirm a diagnosis. This enables timely answers that provide the clarity and comfort you need.
+                        </p>
+                        <p class="text-justify">
+                            Our center is fully facilitated with new generation MRI, ultrasound and X-ray machines, complete with updated softwares. Coupled with expertise of our technologists who understand and know how to optimise machine capabilities, we deliver clear and meaningful images for accurate diagnosis.
+                        </p>
+                        <p class="text-justify">
+                            At Quantum Medical Imaging, we work behind the scenes to enable a healthier landscape in Singapore.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="mri-box">
+                            <div class="counter-box p-3 col-lg-5 col-6">
+                                <h3>10+</h3>
+                                <p>Years of Experience</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gradient mt-lg-5 mt-3">
+            <div class="col-11 m-auto pt-lg-5">
+                <h2 class="g-title bold-9 text-light">We Provide Assistance in Various Directions</h2>
+                <h6 class="g-sub-title bold-7 text-light">Contact us in any suitable way to make an appointment for your every need.</h6>
+
+                <hr class="border border-light">
+
+                <div class="row">
+                    <div class="col-lg-4 col-12">
+                        <h2 class="g-title bold-9 text-light mb-lg-5 mb-3 mt-lg-5 mt-3">
+                            Diagnostic Imaging
+                        </h2>
+                        <h5 class="bold-9 text-light my-3">Magnetic Resonance Imaging (MRI)</h5>
+                        <p class="text-light text-justify">
+                            MRI is a test your doctor may order to diagnose a disease or injury, or to check how well a treatment is working.
+                        </p>
+                        <h5 class="bold-9 text-light my-3 pt-4">Ultrasound</h5>
+                        <p class="text-light text-justify">
+                            Ultrasound is a quick and easy exam that is commonly used as a first diagnostic imaging step.
+                        </p>
+                        <h5 class="bold-9 text-light my-3 pt-4">X-Ray</h5>
+                        <p class="text-light text-justify">
+                            X-ray is a fast and simple exam that produces images of the structures inside your body.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <h2 class="g-title bold-9 text-light mb-lg-5 mb-3 mt-lg-5 mt-3">
+                            Health Screening
+                        </h2>
+                        <h5 class="bold-9 text-light my-3">Individual</h5>
+                        <p class="text-light text-justify">
+                            Whether it is your first, second or third time getting your health checked, our in-house doctor is always prepared to listen to you, tailor tests accordingly and explain your results patiently.
+                        </p>
+                        <h5 class="bold-9 text-light my-3 pt-4">Corporate</h5>
+                        <p class="text-light text-justify">
+                            We cater to both on-site and off-site health screening be it small, medium or large groups.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <h2 class="g-title bold-9 text-light mb-lg-5 mb-3 mt-lg-5 mt-3">
+                            Connecting
+                        </h2>
+                        <h5 class="bold-9 text-light my-3">Refer To Us</h5>
+                        <p class="text-light text-justify">
+                            We welcome all doctor referrals accompanied with referral forms or letters.
+                        </p>
+                        <h5 class="bold-9 text-light my-3 pt-4">Partner With Us</h5>
+                        <p class="text-light text-justify">
+                            We look forward to discussing any potential partnership opportunities. Please e-mail <b>marketing@quantummed.sg</b>, provide some background and our business development team will reach out to discuss further.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="assets/bootstrap/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

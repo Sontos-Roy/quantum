@@ -1,0 +1,87 @@
+.single-product-images{
+    position: relative;
+}
+.single-product-images .discount-tag{
+    position: absolute;
+    right: 20px;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+
+}
+.tab-box, .dec-acc{
+    border-top: 1px solid gray;
+}
+.accordion{
+    position: relative;
+}
+.accordion .ac-btn {
+  
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+    font-family: hind-semi;
+    font-weight: bold;
+    color: black;
+  }
+
+  .accordion .ac-btn p {
+    font-size: 14px; 
+  }
+  .accordion * {
+    font-size: 14px;
+  }
+  .accordion .ac-btn.active:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  .accordion .ac-btn.active { 
+    color: #000000 !important;
+  }
+  .accordion .ac-btn.active span i{ 
+    transform: rotate(180deg);
+    
+  }
+  .accordion .ac-btn span i{ 
+    transform: rotate(0);
+    transition: 0.5s;   
+  }
+  .accordion .tab-content{
+    position: relative;
+
+  }
+  .breadcrumb *{
+    font-size: 12px;
+  }
+  .modal-product-details > p, .modal-product-details > p>* {
+    font-size: 12px !important;
+  }
+  .dec-acc ul li{
+    margin: 5px;
+    color: #817e7b;
+  }
+  .silk-carousel{
+    padding-right: 2px;
+  }
+  .slider-nav div img{
+    padding-top: 5px;
+    padding-right: 5px !important;
+  }
+  .slider-nav div:last-child img{
+    /* padding-right: 0 !important; */
+  }
+  
+  @media (max-width: 571px){
+    .products-options a{
+      display: block;
+      padding: 10px;
+    }
+
+  }
+

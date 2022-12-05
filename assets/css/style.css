@@ -1,0 +1,312 @@
+@import url(fonts.css);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: saira, sans-serif;
+    font-size: 16px;
+}
+
+
+
+:root{
+    /* font sizes  */
+    --font-18: 18px;
+    --font-17: 17px;
+    --font-15: 15px;
+    --font-14: 14px;
+    --font-13: 13px;
+    --font-12: 12px;
+
+    /* colors  */
+    --black: rgb(0, 0, 0);
+    --white: rgb(247, 247, 247);
+    --blue: #0c497d;
+}
+.text-justify{
+    text-align: justify;
+}
+.white{
+    color: white;
+}
+.bg-white{
+    background-color: white;
+}
+.font-18{
+    font-size: var(--font-18);
+}
+.font-17{
+    font-size: var(--font-17);
+}
+.font-15{
+    font-size: var(--font-15);
+}
+.font-14{
+    font-size: var(--font-14);
+}
+.font-13{
+    font-size: var(--font-13);
+}
+.font-12{
+    font-size: var(--font-12);
+}
+.bold-9{
+    font-weight: 900;
+}
+.bold-7{
+    font-weight: 700;
+}
+.bold-5{
+    font-weight: 500;
+}
+.bold-3{
+    font-weight: 300;
+}
+.ls-2{
+    letter-spacing: 2px;
+}
+.bg-black{
+    background: var(--black);
+}
+.align-item-center{
+    align-items: center !important;
+}
+.align-item-start{
+    align-items: flex-start;
+}
+.align-item-between{
+    align-items: stretch;
+}
+.text-cap{
+    text-transform: uppercase;
+}
+.fancybox__container{
+    z-index: 3050;
+}
+.bg-color{
+    background-color: #f29d35;
+    transition: 0.3s;
+}
+.bg-hover-color:hover{
+    background-color: #bfd23a;
+}
+.text-color{
+    color: #F26A5A;
+}
+
+.btn-hover-warning:hover{
+    background-color: #ffc107;
+    border-color: #ffc107;
+    transition: 0.3s;
+    color: black;
+}
+.btn-hover-dark:hover{
+    background-color: black;
+    border-color: black;
+    transition: 0.3s;
+    color: white;
+}
+.modal{
+    z-index: 2020;
+}
+.main-wapper{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+header{
+    height: 70px;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1080;
+}
+.navbar-nav .nav-item .nav-link{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: black;
+    white-space: nowrap;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: rgba(0, 54, 71, 0.815);
+}
+.navbar-nav .nav-item.active .nav-link{
+    color: #f29d35;
+}
+.navbar-nav li ul{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    visibility: hidden;
+    transition: 0.3s;
+    transform: translateY(20px);
+    opacity: 0;
+}
+.navbar-nav li{
+    transition: 0.5s;
+}
+.navbar-nav li:hover ul{
+    visibility: visible;
+    margin-top: 0;
+    opacity: 1; 
+    transition: 0.3s;
+    transform: translateY(0);
+}
+
+
+.book-now{
+    transition: 0.3s;
+    color: white;
+    white-space: nowrap;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background: var(--blue);
+    height: 100vh;
+    width: 320px;
+    transition: 0.5s;
+    opacity: 0;
+}
+.sactive{
+    right: 0;
+    opacity: 1;
+    transition: 0.8s;
+}
+.sidebar .menu{
+    overflow-y: auto;
+    height: 100vh;
+    padding: 20px;
+}
+.sidebar .menu .navbar-nav .nav-item .nav-link{
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+#side-toggler svg{
+    fill: #F26A5A;
+}
+#side-toggler .ct-icon[data-type=type-2] rect:nth-child(1) {
+    width: 10px;
+}
+#side-toggler .ct-icon[data-type=type-2] rect:nth-child(3) {
+    width: 15px;
+}
+#side-toggler .ct-icon rect {
+    transform-origin: 50% 50%;
+    transition: all .12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+
+/* navbar end  */
+
+
+/* banner start  */
+.banner {
+    background-image: url(../images/banners/Homepage-cover-Feb-2021.jpg);
+    background-size: cover;
+}
+.banner .banner-inner{
+    height: 900px;
+    padding-top: 100px;
+}
+.banner .banner-inner .sub-title{
+    color: white;
+    font-family: openSans;
+    font-size: 20px;
+    text-shadow: 1px 1px 7px black;
+}
+.banner .banner-inner .title{
+    text-shadow: 1px 1px 7px black;
+    font-size: 7.2vh;
+    margin-top: 25px;
+}
+.down-banner{
+    background-color: var(--blue);
+}
+.box-wrapper{
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+    transform: translateY(-100px);
+}
+.box{
+    padding-top: 50px;
+   
+}
+.box .icon{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+}
+.box .icon i{
+    font-size: 40px;
+    color: #f29d35;
+    transition: 0.3s;
+}
+.box:hover .icon i{
+    font-size: 50px;
+}
+.box .title{
+    font-weight: 900;
+}
+
+/* banner end  */
+
+/* mri section start  */
+.mri-sec .sec-title{
+    font-size: 8vh;
+    position: relative;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.mri-sec .sec-title::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 25%;
+    height: 1px;
+    background: #f29d35;
+}
+    .mri-sec p{
+        line-height: 1.8;
+    }
+    .mri-box{
+        background-image: url(../images/banners/MRI-machine.jpg);
+        height: 100%;
+        background-size: cover;
+        position: relative;
+    }
+    .mri-box .counter-box{
+        position: absolute;
+        bottom: 20px;
+        left: 25px;
+        background: white;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0 0 7px gray;
+    }
+    .mri-box .counter-box h3{
+        font-size: 60px;
+        font-weight: 900;   
+        color: #f29d35;   
+    }
+
+/* mri section end  */
+
+.gradient{
+    background: linear-gradient(#f29d35, #F26A5A);
+}
