@@ -7,7 +7,9 @@
     font-family: saira, sans-serif;
     font-size: 16px;
 }
-
+body{
+    background: linear-gradient(white, rgb(231, 231, 231));
+}
 
 
 :root{
@@ -65,6 +67,9 @@
 }
 .ls-2{
     letter-spacing: 2px;
+}
+.line {
+    line-height: 1.7;
 }
 .bg-black{
     background: var(--black);
@@ -311,4 +316,41 @@ header{
 
 .gradient{
     background: linear-gradient(#f29d35, #F26A5A);
+}
+
+.impressions .title{
+    display: block;
+}
+.impressions div .sec-title{
+    position: relative;
+    padding: 10px;
+}
+
+.impressions div .sec-title::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 80px;
+    height: 1px;
+    background-color: #f29d35;
+}
+.card .image{
+    height: 250px;
+    overflow: hidden;
+}
+.read-more{
+    padding: 15px 30px;
+    border: 2px solid #f29d35;
+    border-radius: 30px;
+    background-color: white;
+    font-weight: bold;
+    color: #f29d35;
+    transition: 0.3s;
+}
+.read-more:hover{
+    background-color: #f29d35;
+    color: white;
 }
