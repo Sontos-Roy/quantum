@@ -27,6 +27,9 @@
     .foo-bar .op-details h6{
       font-size: 15px;
   }
+  .video div iframe{
+    height: 300px;
+  }
     
   }
    

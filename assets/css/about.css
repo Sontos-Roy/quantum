@@ -1,0 +1,61 @@
+.about-banner{
+    background-image: url(../images/banners/cover-about.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-banner .banner-inner{
+    padding-top: 90vh;
+}
+.banner-overlay{
+    height: 100%;
+    width: 100%;
+    background: black;
+}
+.u-title{
+    position: relative;
+    display: inline;
+    color: white;
+    font-weight: 900;
+    font-size: 6vh;
+}
+.u-title::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #f29d35;
+    width: 70%;
+    height: 1px;
+}
+.slider-nav div{
+    width: auto;
+    padding: 10px;
+}
+.slick-track{
+    transform: none !important;
+}
+.slider-nav div .btn{
+    white-space: nowrap;
+    margin-top: 10px;
+    /* margin: 10px; */
+    font-size: 15px;
+    border-radius: 30px;
+    background: rgb(226, 226, 226);
+}
+.slick-slide.slick-current.slick-center .btn{
+    background: #f29d35;
+    color: white;
+}
+.slider-nav div .btn:hover{
+    background-color: #f29d35;
+    color: aliceblue;
+}
+.slider-nav .slick-slide{
+    width: auto !important;
+}
+.slider-box{
+    background: #0c497d;
+    padding: 30px;
+    color: white;
+}
