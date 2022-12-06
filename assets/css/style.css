@@ -1,5 +1,5 @@
 @import url(fonts.css);
-@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
 
 *{
     margin: 0;
@@ -118,7 +118,7 @@ body{
 .main-wapper{
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     position: relative;
 }
 header{
@@ -353,4 +353,102 @@ header{
 .read-more:hover{
     background-color: #f29d35;
     color: white;
+}
+.book-btn{
+    padding: 15px 30px;
+    border: 2px solid #f29d35;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: bold;
+    color: #f29d35;
+    transition: 0.3s;
+}
+.book-btn:hover{
+    background-color: #f29d35;
+    color: white;
+}
+
+
+.mri_book{
+    background-color: #0c497d;
+
+}
+.handshake{
+    display: flex;
+    justify-content: center ;
+}
+.handshake i{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    background-color: #0c497d;
+    z-index: 11;
+    padding: 0 10px;
+}
+
+.handshake div.left-div{
+    position: absolute;
+    margin-top: 15px;
+    left: 50%;
+    height: 1px;
+    width: 100px;
+    background-color: #f29d35;
+}
+.handshake div.right-div{
+    position: absolute;
+    margin-top: 15px;
+    right: 50%;
+    height: 1px;
+    width: 100px;
+    background-color: #f29d35;
+}
+
+
+.footer-bar{
+    background-color: #f29d35;
+}
+.foo-bar .icon{
+    padding: 0;
+    width: auto;
+    height: auto;
+    display: block;
+}
+.foo-bar .icon i{
+    color: white;
+}
+
+footer{
+    background-color: #0c497d;
+}
+footer *{
+    color: white;
+}
+.footer div .title{
+    position: relative;
+    padding: 15px 0;
+    display: inline;
+}
+.footer div .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 1px;
+    background-color: #f29d35;
+}
+
+.copyright{
+    background-color: #043663;
+}
+.social{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+.social:hover i{
+    color: black !important;
 }

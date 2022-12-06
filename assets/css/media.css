@@ -21,7 +21,12 @@
       font-size: 25px;
       text-align: center;
     }
-
+    .foo-bar .op-details h5{
+      font-size: 20px;
+  }
+    .foo-bar .op-details h6{
+      font-size: 15px;
+  }
     
   }
    
